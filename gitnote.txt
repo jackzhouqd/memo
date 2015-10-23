@@ -1,0 +1,17 @@
+github create repository from scratch:
+command line:
+echo # sketch >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/jackzhouqd/sketch.git
+git push -u origin master
+
+create repository from clone:
+press "clone"
+git clone xxx
+git add .
+git push xxx / git push
+
+jackzhouqd
+git pull (repo sync)
